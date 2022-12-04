@@ -33,3 +33,8 @@ The program defaults to commonly used default values for column headers. If you 
 
 ## Contributing
 If there are any issues, feel free to open an issue. If you have any interesting additions or optimizations you can open a pull request.
+
+## Example input file
+The input PDF consists of multiple pages looking like shown below, each representing different departments.
+Large part of the data is masked for privacy reasons, but one should be able to grasp the general idea.
+![Example planning file](/imgs/RR-screenshot.png)
