@@ -16,7 +16,8 @@ import java.util.regex.Pattern;
 
 public class PdfReader {
 
-    protected static final String[] START_CELL_STRINGS = {"AGF", "Goederenverwerking", "Vleeswaren/Kaas", "Kassa", "Bedrijfsleiding", "Proces", "Bakkerij", "Schoonmaak", "E-Commerce", "Verslijn"};
+    protected static final String[] START_CELL_STRINGS = {"AGF", "Goederenverwerking", "Vleeswaren/Kaas", "Kassa", "Bedrijfsleiding",
+            "Proces", "Bakkerij", "Schoonmaak", "E-Commerce", "Verslijn", "Verslijn/Verskeuken"};
     protected static final String END_CELL_STRING = "Totaal";
     protected static final String END_CELL_STRING2 = "Rooster";
     protected final int YEAR = Calendar.getInstance().get(Calendar.YEAR);
